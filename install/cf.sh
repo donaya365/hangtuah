@@ -29,7 +29,7 @@ DOMAIN=envy-cakill.me
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
 SUB_DOMAIN=${sub}.envy-cakill.me
 CF_ID=kidroster55@gmail.com
-CF_KEY=3a6ec62bf385082f3b806a01aae65edb15691
+CF_KEY=1fa7ccec0343954e2242e221e38a439d20277
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${SUB_DOMAIN}..."
